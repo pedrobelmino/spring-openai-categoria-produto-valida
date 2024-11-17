@@ -30,6 +30,7 @@ Este projeto é uma API RESTful desenvolvida em Java utilizando o framework Spri
    cd spring-openai-categoria-produto-valida
    ```
 
+
 2. **Compile o projeto:**
 
    ```bash
@@ -38,7 +39,10 @@ Este projeto é uma API RESTful desenvolvida em Java utilizando o framework Spri
 
 3. **Execute a aplicação:**
 
+Defina a variável de ambiente
+ 
    ```bash
+   export SPRING_AI_OPENAI_API_KEY=SUA_CHAVE_ARQUI
    mvn spring-boot:run
    ```
 
